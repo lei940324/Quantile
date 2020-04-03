@@ -19,9 +19,9 @@
 
 # Display
 
-主窗口界面：
+## 主窗口界面
 
-![image-20200403203943172](https://raw.githubusercontent.com/lei940324/picture/master/typora202004/03/203947-735122.png)
+<img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202004/03/224113-33109.png" alt="image-20200403224111470" style="zoom:50%;" />
 
 主要包括：
 
@@ -36,7 +36,7 @@
 
 - **区间设定**：区间**起点、中点、个数**设定以及**生成区间**按钮
 
-  > **注意：**个数是点的个数，比如设定17个，则会生成16个分位区间
+  > **注意**：个数是点的个数，比如设定17个，则会生成16个分位区间
 
   **例子：**
 
@@ -78,7 +78,9 @@
 
 - **估计信息显示**：展示运行信息
 
+## 
 
+<img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202004/03/224150-525667.png" alt="image-20200403224146935" style="zoom:50%;" />
 
 # Usage
 
@@ -155,7 +157,7 @@ python main.py
 
 - **Qt Creator**：GUI界面可视化
 
-  ![image-20200331182028292](https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182029-164220.png)
+  <img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182029-164220.png" alt="image-20200331182028292" style="zoom:50%;" />
 
 - **PyCharm**：代码编辑器
 
