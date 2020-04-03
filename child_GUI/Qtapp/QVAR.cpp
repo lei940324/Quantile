@@ -12,3 +12,18 @@ QVAR::~QVAR()
 {
     delete ui;
 }
+
+void QVAR::on_pushButton_clicked()
+{
+
+}
+
+void QVAR::on_pushButton_2_clicked()
+{
+
+}
+
+void QVAR::on_pushButton_3_clicked()
+{
+
+}

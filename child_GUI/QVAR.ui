@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>314</width>
-    <height>298</height>
+    <width>348</width>
+    <height>273</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -15,18 +15,35 @@
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
+    <item row="3" column="0">
+     <spacer name="horizontalSpacer_9">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
     <item row="6" column="0">
      <layout class="QHBoxLayout" name="horizontalLayout_3">
       <item>
        <widget class="QPushButton" name="pushButton">
         <property name="maximumSize">
          <size>
-          <width>20</width>
-          <height>20</height>
+          <width>30</width>
+          <height>30</height>
          </size>
         </property>
         <property name="text">
          <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="icon.qrc">
+          <normaloff>:/icon/image/704.bmp</normaloff>:/icon/image/704.bmp</iconset>
         </property>
        </widget>
       </item>
@@ -34,14 +51,44 @@
        <widget class="QPushButton" name="pushButton_2">
         <property name="maximumSize">
          <size>
-          <width>20</width>
-          <height>20</height>
+          <width>30</width>
+          <height>30</height>
          </size>
         </property>
         <property name="text">
          <string/>
         </property>
+        <property name="icon">
+         <iconset resource="icon.qrc">
+          <normaloff>:/icon/image/706.bmp</normaloff>:/icon/image/706.bmp</iconset>
+        </property>
        </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_15">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_14">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
       </item>
       <item>
        <spacer name="horizontalSpacer_3">
@@ -71,8 +118,8 @@
       </item>
      </layout>
     </item>
-    <item row="3" column="0">
-     <spacer name="horizontalSpacer_9">
+    <item row="8" column="0">
+     <spacer name="horizontalSpacer_10">
       <property name="orientation">
        <enum>Qt::Horizontal</enum>
       </property>
@@ -87,36 +134,164 @@
     <item row="7" column="0">
      <layout class="QGridLayout" name="gridLayout_2">
       <item row="0" column="0">
-       <widget class="QSpinBox" name="spinBox_3"/>
+       <widget class="QDoubleSpinBox" name="doubleSpinBox">
+        <property name="maximumSize">
+         <size>
+          <width>70</width>
+          <height>16777215</height>
+         </size>
+        </property>
+       </widget>
       </item>
       <item row="0" column="1">
-       <widget class="QSpinBox" name="spinBox_4"/>
-      </item>
-      <item row="0" column="4">
-       <widget class="QSpinBox" name="spinBox_6"/>
-      </item>
-      <item row="0" column="5">
-       <widget class="QSpinBox" name="spinBox_7"/>
-      </item>
-      <item row="1" column="0">
-       <widget class="QSpinBox" name="spinBox_8"/>
-      </item>
-      <item row="1" column="1">
-       <widget class="QSpinBox" name="spinBox_9"/>
-      </item>
-      <item row="1" column="2">
-       <widget class="QSpinBox" name="spinBox_10"/>
-      </item>
-      <item row="1" column="5">
-       <widget class="QSpinBox" name="spinBox_12"/>
+       <widget class="QDoubleSpinBox" name="doubleSpinBox_2">
+        <property name="maximumSize">
+         <size>
+          <width>70</width>
+          <height>16777215</height>
+         </size>
+        </property>
+       </widget>
       </item>
       <item row="0" column="2">
-       <widget class="QSpinBox" name="spinBox_5"/>
+       <widget class="QDoubleSpinBox" name="doubleSpinBox_3">
+        <property name="maximumSize">
+         <size>
+          <width>70</width>
+          <height>16777215</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QDoubleSpinBox" name="doubleSpinBox_4">
+        <property name="maximumSize">
+         <size>
+          <width>70</width>
+          <height>16777215</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4">
+       <widget class="QDoubleSpinBox" name="doubleSpinBox_5">
+        <property name="maximumSize">
+         <size>
+          <width>70</width>
+          <height>16777215</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QDoubleSpinBox" name="doubleSpinBox_6">
+        <property name="maximumSize">
+         <size>
+          <width>70</width>
+          <height>16777215</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QDoubleSpinBox" name="doubleSpinBox_7">
+        <property name="maximumSize">
+         <size>
+          <width>70</width>
+          <height>16777215</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QDoubleSpinBox" name="doubleSpinBox_8">
+        <property name="maximumSize">
+         <size>
+          <width>70</width>
+          <height>16777215</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QDoubleSpinBox" name="doubleSpinBox_9">
+        <property name="maximumSize">
+         <size>
+          <width>70</width>
+          <height>16777215</height>
+         </size>
+        </property>
+       </widget>
       </item>
       <item row="1" column="4">
-       <widget class="QSpinBox" name="spinBox_11"/>
+       <widget class="QDoubleSpinBox" name="doubleSpinBox_10">
+        <property name="maximumSize">
+         <size>
+          <width>70</width>
+          <height>16777215</height>
+         </size>
+        </property>
+       </widget>
       </item>
      </layout>
+    </item>
+    <item row="9" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <spacer name="horizontalSpacer_8">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_7">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_3">
+        <property name="text">
+         <string>开始运行</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_4">
+        <property name="text">
+         <string>脉冲图</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>滞后阶数</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>分位点</string>
+      </property>
+     </widget>
     </item>
     <item row="2" column="0">
      <layout class="QHBoxLayout" name="horizontalLayout_2">
@@ -128,7 +303,14 @@
        </widget>
       </item>
       <item>
-       <widget class="QSpinBox" name="spinBox"/>
+       <widget class="QSpinBox" name="spinBox">
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>16777215</height>
+         </size>
+        </property>
+       </widget>
       </item>
       <item>
        <spacer name="horizontalSpacer_12">
@@ -164,7 +346,14 @@
        </widget>
       </item>
       <item>
-       <widget class="QSpinBox" name="spinBox_2"/>
+       <widget class="QSpinBox" name="spinBox_2">
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>16777215</height>
+         </size>
+        </property>
+       </widget>
       </item>
       <item>
        <spacer name="horizontalSpacer_11">
@@ -220,81 +409,12 @@
       </item>
      </layout>
     </item>
-    <item row="8" column="0">
-     <spacer name="horizontalSpacer_10">
-      <property name="orientation">
-       <enum>Qt::Horizontal</enum>
-      </property>
-      <property name="sizeHint" stdset="0">
-       <size>
-        <width>40</width>
-        <height>20</height>
-       </size>
-      </property>
-     </spacer>
-    </item>
-    <item row="9" column="0">
-     <layout class="QHBoxLayout" name="horizontalLayout">
-      <item>
-       <spacer name="horizontalSpacer_8">
-        <property name="orientation">
-         <enum>Qt::Horizontal</enum>
-        </property>
-        <property name="sizeHint" stdset="0">
-         <size>
-          <width>40</width>
-          <height>20</height>
-         </size>
-        </property>
-       </spacer>
-      </item>
-      <item>
-       <spacer name="horizontalSpacer_7">
-        <property name="orientation">
-         <enum>Qt::Horizontal</enum>
-        </property>
-        <property name="sizeHint" stdset="0">
-         <size>
-          <width>40</width>
-          <height>20</height>
-         </size>
-        </property>
-       </spacer>
-      </item>
-      <item>
-       <widget class="QPushButton" name="pushButton_3">
-        <property name="text">
-         <string>开始运行</string>
-        </property>
-       </widget>
-      </item>
-      <item>
-       <widget class="QPushButton" name="pushButton_4">
-        <property name="text">
-         <string>脉冲图</string>
-        </property>
-       </widget>
-      </item>
-     </layout>
-    </item>
-    <item row="5" column="0">
-     <widget class="QLabel" name="label_4">
-      <property name="text">
-       <string>分位点</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="0">
-     <widget class="QLabel" name="label_3">
-      <property name="text">
-       <string>滞后阶数</string>
-      </property>
-     </widget>
-    </item>
    </layout>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
- <resources/>
+ <resources>
+  <include location="icon.qrc"/>
+ </resources>
  <connections/>
 </ui>

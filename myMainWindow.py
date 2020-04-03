@@ -13,6 +13,7 @@ from PyQt5.QtCore import pyqtSlot, pyqtSignal, QThread
 
 from ui_MainWindow import Ui_MainWindow
 from child_GUI.read_windows import read_Window
+from child_GUI.QVAR_windows import QVAR
 
 # 继承QThread
 class Runthread(QThread):
@@ -166,7 +167,9 @@ class QmyMainWindow(QMainWindow):
 
    @pyqtSlot()
    def on_actionQVAR_triggered(self):   # QVAR估计
-      func.EXIT = True
+      QVARdata = self.func.pattern(self.df, self.ui.comboBox_2.currentText())
+      QVAR_win = QVAR(QVARdata, self)
+      QVAR_win.show()
    
 ##  ============窗体测试程序 ================================
 if  __name__ == "__main__":        
