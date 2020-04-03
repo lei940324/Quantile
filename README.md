@@ -78,9 +78,13 @@
 
 - **估计信息显示**：展示运行信息
 
-## 
+## 查看数据界面
 
 <img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202004/03/224150-525667.png" alt="image-20200403224146935" style="zoom:50%;" />
+
+## QVAR估计界面
+
+![image-20200403224550135](https://raw.githubusercontent.com/lei940324/picture/master/typora202004/03/224553-866019.png)
 
 # Usage
 
