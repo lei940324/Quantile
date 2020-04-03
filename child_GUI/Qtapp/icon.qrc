@@ -2,5 +2,8 @@
     <qresource prefix="/icon">
         <file>image/704.bmp</file>
         <file>image/706.bmp</file>
+        <file>image/122.bmp</file>
+        <file>image/212.bmp</file>
+        <file>image/724.bmp</file>
     </qresource>
 </RCC>

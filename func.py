@@ -334,6 +334,9 @@ class Quantile_Granger():
         for object in objects:
             object('估计结果已保存在“运行结果/Granger.xlsx”文件内!')
             object('程序运行结束')
+        print('\n*******************************************')
+        print('最终结果展示：')
+        print(results)
 
 
 if __name__ == "__main__":  # 用于当前窗体测试
