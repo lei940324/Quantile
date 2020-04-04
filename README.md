@@ -78,13 +78,9 @@
 
 - **估计信息显示**：展示运行信息
 
-## 查看数据界面
-
-<img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202004/03/224150-525667.png" alt="image-20200403224146935" style="zoom:50%;" />
-
 ## QVAR估计界面
 
-![image-20200403224550135](https://raw.githubusercontent.com/lei940324/picture/master/typora202004/03/224553-866019.png)
+![image-20200404165239750](https://raw.githubusercontent.com/lei940324/picture/master/typora202004/04/165304-871745.png)
 
 # Usage
 
@@ -107,11 +103,10 @@ python main.py
 # 项目目录
 
 ```
-<<<<<<< HEAD
 |-- Quantile_Ganger
     |-- beauty_UI.py             // 美化GUI界面代码    
     |-- func.py                  // 主函数代码，定义分位数Granger因果检验计算    
-    |-- main.py                  // 构建GUI界面    
+    |-- main.py                  // 主程序    
     |-- MainWindow.ui            // 使用Qt Creator生成的GUI界面代码    
     |-- README.md                // 说明文件   
     |-- res_rc.py                // 资源文件转译   
@@ -122,8 +117,8 @@ python main.py
     |   |-- Sup_wald_lag.xlsx    // 检验Sup_wald显著性文件   
     |   |-- 测试数据.xlsx         // 可以使用该文件进行测试，查看结果  
     |   |-- 运行细节.txt          // 测试日志  
-    |-- GUI                      // 使用Qt Creator 建立主窗口项目产生的文件   
-    |-- image                    // 项目中用的图片   
+    |-- GUI                      // 使用Qt Creator 建立主窗口项目产生的文件  
+    |-- child_GUI                // 使用Qt Creator 建立子窗口项目产生的文件
     |-- 公式原理              
 ```
 
@@ -165,7 +160,7 @@ python main.py
 
 - **PyCharm**：代码编辑器
 
-  ![image-20200331182339215](https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182340-937174.png)
+  <img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182340-937174.png" alt="image-20200331182339215" style="zoom:50%;" />
 
 
 
