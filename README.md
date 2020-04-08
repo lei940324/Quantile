@@ -176,7 +176,7 @@ python main.py
 
 ## 分位数Granger因果检验实现原理
 
-由于github很难查看latex格式的公式，可以点击 [分位数Granger因果检验实现原理.pdf](https://github.com/lei940324/Quantile_Granger/blob/master/%E5%85%AC%E5%BC%8F%E5%8E%9F%E7%90%86/%E5%88%86%E4%BD%8D%E6%95%B0Granger%E5%9B%A0%E6%9E%9C%E6%A3%80%E9%AA%8C%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86.pdf) 进行查看
+由于github很难查看latex格式的公式，可以点击 [分位数Granger因果检验实现原理.pdf](https://github.com/lei940324/Quantile/blob/master/公式原理/分位数Granger因果检验实现原理.pdf) 进行查看
 
 # Development Tool
 
@@ -203,4 +203,4 @@ python main.py
   * 基于分位数Granger因果的网络情绪与股市收益关系研究
 * **其他:**
   * Eviews 8帮助文件
-  * [张晓峒分位数回归讲义](https://github.com/lei940324/Quantile_Granger/blob/master/%E5%85%AC%E5%BC%8F%E5%8E%9F%E7%90%86/%E5%BC%A0%E6%99%93%E5%B3%92%E5%88%86%E4%BD%8D%E6%95%B0%E5%9B%9E%E5%BD%92%E8%AE%B2%E4%B9%89.doc)
+  * [张晓峒分位数回归讲义](https://github.com/lei940324/Quantile/blob/master/公式原理/张晓峒分位数回归讲义.doc)
