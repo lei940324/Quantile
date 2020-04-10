@@ -4,7 +4,6 @@ import sys
 import pandas as pd
 from func import Quantile_Granger, logging
 import func
-
 from PyQt5 import QtCore, QtGui
 from PyQt5.QtWidgets import QApplication, QMainWindow, QFileDialog
 from PyQt5.QtCore import pyqtSlot, pyqtSignal, QThread

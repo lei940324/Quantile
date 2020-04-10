@@ -1,3 +1,15 @@
+<a href="https://www.python.org/downloads/"><img  src="https://img.shields.io/badge/python-3.6%2B-brightgreen"></a>
+
+<a href="https://github.com/pandas-dev/pandas"><img src="https://img.shields.io/badge/pandas-1.0.1-yellow"></a>
+
+<a href="https://github.com/scipy/scipy"><img src="https://img.shields.io/badge/scipy-1.4.1-brightgreen"></a>
+
+<a href="https://github.com/numpy/numpy"><img src="https://img.shields.io/badge/numpy-1.18.1-blue"></a>
+
+<a href="https://github.com/statsmodels/statsmodels"><img src="https://img.shields.io/badge/statsmodels-0.11.0-red"></a>
+
+<a href="https://pypi.org/project/PyQt5/"><img src="https://img.shields.io/badge/pyqt5-5.10-orange"></a>
+
 # Introduction
 
 ## 功能介绍
@@ -11,11 +23,6 @@
 * 使用`pyqt5`生成GUI界面
 * 使用`statsmodels`进行分位数回归
 * 使用`pandas`将结果保存在excel文件
-
-# Requirements
-
-* python 3.6+ 
-* 需要安装第三方库：`pandas`、`scipy`、`numpy`、`statsmodels`、`pyqt5`；推荐使用`anaconda`
 
 # Display
 
