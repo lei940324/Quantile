@@ -23,7 +23,8 @@
 
 ## 主窗口界面
 
-<div align=center><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/03/224113-33109.png" width="450">
+<div align=center><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/03/224113-33109.png" width="450"></div>
+
 
 主要包括：
 
@@ -82,7 +83,8 @@
 
 ## QVAR估计界面
 
-<div align=center><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/04/165304-871745.png" width="300">
+<div align=center><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/04/165304-871745.png" width="300"></div>
+
 
 - **工具栏**：
 
