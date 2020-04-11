@@ -26,3 +26,6 @@
 # with the python modules ``pickle``, ``dbm.*``,
 # ``shelve``, ``marshal``, ``anydbm``, & ``bsddb``
 # (among others).
+
+# ееЁЩнд╪Ч
+__pycache__/
