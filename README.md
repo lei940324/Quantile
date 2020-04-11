@@ -23,7 +23,7 @@
 
 ## 主窗口界面
 
-<img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202004/03/224113-33109.png" alt="image-20200403224111470" style="zoom:50%;" />
+<div align=center><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/03/224113-33109.png" width="450">
 
 主要包括：
 
@@ -82,7 +82,7 @@
 
 ## QVAR估计界面
 
-![image-20200404165239750](https://raw.githubusercontent.com/lei940324/picture/master/typora202004/04/165304-871745.png)
+<div align=center><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/04/165304-871745.png" width="300">
 
 - **工具栏**：
 
@@ -182,13 +182,10 @@ python main.py
 
 # Development Tool
 
-- **Qt Creator**：GUI界面可视化
+- <span>**Qt Creator**</span><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182029-164220.png" width="50" align="absmiddle"><span>：GUI界面可视化</span>
+- <span>**PyCharm**</span><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182340-937174.png" width="50" align="absmiddle"><span>：代码编辑器</span>
 
-  <img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182029-164220.png" alt="image-20200331182028292" style="zoom:50%;" />
-
-- **PyCharm**：代码编辑器
-
-  <img src="https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182340-937174.png" alt="image-20200331182339215" style="zoom:50%;" />
+- <span>**Visual Studio Code**</span><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/09/000635-457642.png" width="50" align="absmiddle"><span>：代码阅读器</span>
 
 
 
