@@ -182,8 +182,6 @@ python main.py
 
 由于github很难展示latex格式的公式，可以点击[我的博客](https://blog.csdn.net/u013289615/article/details/105450785)进行查看。
 
-# 查看查看 分位数Granger因果检验实现原理.pdf 进行查看r**</span><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182029-164220.png" width="50" align="absmiddle"><span>：GUI界面可视化</span>
-
 
 
 # Development Tool
