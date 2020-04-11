@@ -180,11 +180,16 @@ python main.py
 
 ## 分位数Granger因果检验实现原理
 
-由于github很难查看latex格式的公式，可以点击 [分位数Granger因果检验实现原理.pdf](https://github.com/lei940324/Quantile/blob/master/公式原理/分位数Granger因果检验实现原理.pdf) 进行查看
+由于github很难展示latex格式的公式，可以点击[我的博客](https://blog.csdn.net/u013289615/article/details/105450785)进行查看。
+
+# 查看查看 分位数Granger因果检验实现原理.pdf 进行查看r**</span><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182029-164220.png" width="50" align="absmiddle"><span>：GUI界面可视化</span>
+
+
 
 # Development Tool
 
 - <span>**Qt Creator**</span><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182029-164220.png" width="50" align="absmiddle"><span>：GUI界面可视化</span>
+
 - <span>**PyCharm**</span><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182340-937174.png" width="50" align="absmiddle"><span>：代码编辑器</span>
 
 - <span>**Visual Studio Code**</span><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/09/000635-457642.png" width="50" align="absmiddle"><span>：代码阅读器</span>
@@ -204,4 +209,5 @@ python main.py
   * 基于分位数Granger因果的网络情绪与股市收益关系研究
 * **其他:**
   * Eviews 8帮助文件
-  * [张晓峒分位数回归讲义](https://github.com/lei940324/Quantile/blob/master/公式原理/张晓峒分位数回归讲义.doc)
+  * 张晓峒分位数回归讲义
+
