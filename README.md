@@ -147,7 +147,7 @@ python main.py
     |   |-- 运行细节.txt          // 测试日志  
     |-- GUI                      // 使用Qt Creator 建立主窗口项目产生的文件  
     |-- child_GUI                // 使用Qt Creator 建立子窗口项目产生的文件
-    |-- 运行结果                   // 运行结果存储文件夹
+    |-- 运行结果                  // 运行结果存储文件夹
 ```
 
 > 代码主体为**main.py**与**func.py**文件
@@ -178,7 +178,7 @@ python main.py
 
 ## 分位数Granger因果检验实现原理
 
-由于github很难展示latex格式的公式，可以点击[我的博客](https://blog.csdn.net/u013289615/article/details/105450785)进行查看。
+由于github很难展示latex格式的公式，可以[click这里](https://blog.csdn.net/u013289615/article/details/105450785)进行查看。
 
 
 
