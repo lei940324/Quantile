@@ -194,4 +194,4 @@ class Ui_QVAR(object):
         self.action_2.setText(_translate("QVAR", "绘制脉冲图"))
         self.action_3.setText(_translate("QVAR", "导入数据"))
 
-import icon_rc
+import pyqt5界面.icon_rc

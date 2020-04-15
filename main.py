@@ -9,9 +9,9 @@ from PyQt5.QtWidgets import QApplication, QMainWindow, QFileDialog
 from PyQt5.QtCore import pyqtSlot, pyqtSignal, QThread
 
 from beauty_UI import beauty
-from ui_MainWindow import Ui_MainWindow
-from child_GUI.read_windows import read_Window
-from child_GUI.QVAR_windows import QVAR
+from pyqt5界面.ui_MainWindow import Ui_MainWindow
+from pyqt5界面.child_GUI.read_windows import read_Window
+from pyqt5界面.child_GUI.QVAR_windows import QVAR
 
 # 继承QThread
 

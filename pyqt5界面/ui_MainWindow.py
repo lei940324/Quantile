@@ -281,4 +281,4 @@ class Ui_MainWindow(object):
         self.action_6.setText(_translate("MainWindow", "查看数据"))
         self.actionQVAR.setText(_translate("MainWindow", "QVAR估计"))
 
-import res_rc
+import pyqt5界面.res_rc

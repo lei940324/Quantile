@@ -18,7 +18,7 @@ from PyQt5.QtCore import Qt
 ##from PyQt5.QtMultimediaWidgets import
 
 
-from child_GUI.ui_read_data import Ui_MainWindow
+from pyqt5界面.child_GUI.ui_read_data import Ui_MainWindow
 # from ui_read_data import Ui_MainWindow
 
 class read_Window(QMainWindow): 

@@ -19,7 +19,7 @@ from func import Quantile_Granger
 # from PyQt5.QtMultimediaWidgets import
 
 
-from child_GUI.ui_QVAR import Ui_QVAR
+from pyqt5界面.child_GUI.ui_QVAR import Ui_QVAR
 
 
 class QVAR(QMainWindow):

@@ -134,19 +134,16 @@ python main.py
 |-- Quantile
     |-- beauty_UI.py             // 美化GUI界面代码    
     |-- func.py                  // 主函数代码，定义分位数Granger因果检验计算    
-    |-- main.py                  // 主程序    
-    |-- MainWindow.ui            // 使用Qt Creator生成的GUI界面代码    
-    |-- README.md                // 说明文件   
-    |-- res_rc.py                // 资源文件转译   
-    |-- uic.bat                  // 转化代码   
-    |-- ui_MainWindow.py         // 使用Qt Creator生成的GUI界面代码，并转化为py文件  
-    |-- data
+    |-- main.py                  // 主程序       
+    |-- README.md                // 说明文件        
+    |-- data                     // 数据保存文件夹
     |   |-- output.xlsx          // 测试产生的结果文件   
     |   |-- Sup_wald_lag.xlsx    // 检验Sup_wald显著性文件   
     |   |-- 测试数据.xlsx         // 可以使用该文件进行测试，查看结果  
     |   |-- 运行细节.txt          // 测试日志  
-    |-- GUI                      // 使用Qt Creator 建立主窗口项目产生的文件  
-    |-- child_GUI                // 使用Qt Creator 建立子窗口项目产生的文件
+    |-- pyqt5界面                 // 使用Qt Creator 建立窗口产生的文件
+    |   |-- GUI                  // 主窗口
+    |   |-- child_GUI            // 子窗口
     |-- 运行结果                  // 运行结果存储文件夹
 ```
 
