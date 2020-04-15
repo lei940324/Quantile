@@ -5,9 +5,9 @@
 <a href="https://github.com/statsmodels/statsmodels"><img src="https://img.shields.io/badge/statsmodels-0.11.0-red"></a>
 <a href="https://pypi.org/project/PyQt5/"><img src="https://img.shields.io/badge/pyqt5-5.10-orange"></a>
 
-# Introduction
+## Introduction
 
-## 功能介绍
+### 功能介绍
 
 - [x] 分位数Granger因果检验：计算各分位区间Sup-Wald统计量。
 
@@ -15,15 +15,15 @@
 - [ ] 脉冲响应函数计算
 - [ ] 各分位点脉冲图绘制
 
-## 代码实现原理
+### 代码实现原理
 
 * 使用`pyqt5`生成GUI界面
 * 使用`statsmodels`进行分位数回归
 * 使用`pandas`将结果保存在excel文件
 
-# Display
+## Display
 
-## 主窗口界面
+### 主窗口界面
 
 <div align=center><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/03/224113-33109.png" width="450"></div>
 
@@ -59,7 +59,7 @@
 
     假定p=1，q=2，估计方程形式则为：Y=c<sub>1</sub>+c<sub>2</sub>Y<sub>-1</sub>+c<sub>3</sub>X<sub>-1</sub>+c<sub>4</sub>X<sub>-2</sub>
 
-    |      模式      |                           内容说明                           |                      数据排序                      |                         计算规则描述                         |
+    |    模式选择    |                           内容说明                           |                      数据排序                      |                         计算规则描述                         |
     | :------------: | :----------------------------------------------------------: | :------------------------------------------------: | :----------------------------------------------------------: |
     | 单因素对各市场 | 研究单一因素对各市场的因果关系，比如房价对股票，汇率市场的因果关系 | data=[X,Y<sub>1</sub>,Y<sub>2</sub>,Y<sub>3</sub>] | X对Y<sub>1</sub>回归；X对Y<sub>2</sub>回归；X对Y<sub>3</sub>回归 |
     |    相互影响    | 研究两因素之间的因果关系，比如房价与股票，汇率市场的相互因果关系 | data=[X,Y<sub>1</sub>,Y<sub>2</sub>,Y<sub>3</sub>] | X对Y<sub>1</sub>回归；X对Y<sub>2</sub>回归；X对Y<sub>3</sub>回归；Y<sub>1</sub>对X回归；Y<sub>1</sub>对Y<sub>2</sub>回归;Y<sub>1</sub>对Y<sub>3</sub>回归;......... |
@@ -83,7 +83,7 @@
 
 - **估计信息显示**：展示运行信息
 
-## QVAR估计界面
+### QVAR估计界面
 
 <div align=center><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/04/165304-871745.png" width="300"></div>
 
@@ -110,7 +110,7 @@
 
 - **信息显示**：显示提示信息
 
-# Usage
+## Usage
 
 **第一步**：在当前路径下的命令行输入：
 
@@ -128,7 +128,7 @@ python main.py
 
 **第四步**：点击**开始运行**按钮，等待程序运行结束，结果保存在**运行结果**文件夹下的**Granger.xlsx**文件内
 
-# 项目目录
+## 项目目录
 
 ```
 |-- Quantile
@@ -152,9 +152,9 @@ python main.py
 
 > 代码主体为**main.py**与**func.py**文件
 
-# 估计原理
+## 估计原理
 
-## 使用函数介绍
+### 使用函数介绍
 
 使用`statsmodels`库进行分位数回归命令：
 
@@ -176,23 +176,23 @@ python main.py
 
 
 
-## 分位数Granger因果检验实现原理
+### 分位数Granger因果检验实现原理
 
 由于github很难展示latex格式的公式，可以[click这里](https://blog.csdn.net/u013289615/article/details/105450785)进行查看。
 
 
 
-# Development Tool
+## Development Tool
 
-- <span>**Qt Creator**</span><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182029-164220.png" width="50" align="absmiddle"><span>：GUI界面可视化</span>
+|       工具名       |     功能      |                           图标icon                           |                           官网下载                           |
+| :----------------: | :-----------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|     Qt Creator     | GUI界面可视化 | <img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182029-164220.png" width="50" align="absmiddle"> | [click](http://download.qt.io/official_releases/qtcreator/)  |
+|      PyCharm       |  代码编辑器   | <img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182340-937174.png" width="50" align="absmiddle"> | [click](https://www.jetbrains.com/pycharm/download/#section=windows) |
+| Visual Studio Code |  代码阅读器   | <img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/14/193013-466582.png" width="50" align="absmiddle"> |           [click](https://code.visualstudio.com/)            |
 
-- <span>**PyCharm**</span><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202003/31/182340-937174.png" width="50" align="absmiddle"><span>：代码编辑器</span>
-
-- <span>**Visual Studio Code**</span><img src= "https://raw.githubusercontent.com/lei940324/picture/master/typora202004/09/000635-457642.png" width="50" align="absmiddle"><span>：代码阅读器</span>
 
 
-
-# reference
+## reference
 
 * **书籍：**
   * 《Python Qt GUI与数据可视化编程》
