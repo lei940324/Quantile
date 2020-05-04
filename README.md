@@ -224,3 +224,6 @@ python main.py
 
   * 张晓峒分位数回归讲义
 
+## License
+
+[MIT](https://github.com/lei940324/Quantile/blob/master/LICENSE) © 热心市民石头
