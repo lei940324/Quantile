@@ -13,8 +13,6 @@ from pyqt5界面.ui_MainWindow import Ui_MainWindow
 from pyqt5界面.child_GUI.read_windows import read_Window
 from pyqt5界面.child_GUI.QVAR_windows import QVAR
 
-# 继承QThread
-
 
 class Runthread(QThread):
     #  通过类成员对象定义信号对象
